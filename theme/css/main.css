@@ -1,14 +1,23 @@
 
+html {
+    background-color: white;
+    margin: 0;
+}
 
-h1, h2, h3 {
-    margin: 1rem auto;
+h1 > a, h2 > a, h3 > a {
+    margin: .25rem auto;
     text-align: center;
     color: darkslategrey;
 }
 
 body {
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 30rem;
     min-width: auto;
+    min-height: 100%;
+    padding: 1rem;
+
     background-color: whitesmoke;
+    box-shadow: 0 0 10px 2px darkgrey;
+    border-radius: .5rem;
 }
