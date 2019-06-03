@@ -1,6 +1,9 @@
 
 html {
     background-color: white;
+    background-image: url(../backgroundChecker.gif);
+    background-repeat: repeat;
+    background-size: 30px 30px;
     margin: 0;
 }
 
@@ -20,4 +23,12 @@ body {
     background-color: whitesmoke;
     box-shadow: 0 0 10px 2px darkgrey;
     border-radius: .5rem;
+}
+
+footer time {
+    display: inline;
+}
+
+#post-list {
+    list-style-type: none;
 }
