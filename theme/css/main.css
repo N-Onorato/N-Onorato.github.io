@@ -53,8 +53,8 @@ blockquote p {
 
 #main-grid-container {
     margin: .5rem auto;
-    max-width: 60rem;
-    min-width: 30rem;
+    max-width: 1000px;
+    min-width: 500px;
     min-height: 100%;
 
 }
