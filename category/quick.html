@@ -2,30 +2,37 @@
 <html lang="en">
 
 <head>
-      <title>Plasticity - Quick category</title>
+
+  <title>Plasticity - Quick category</title>
   <base target="_self" rel="noreferrer">
   <meta name="viewport" content="width=500, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="../theme/css/main.css" />
   <meta charset="utf-8" />
 
-    <link rel="stylesheet" type="text/css" href="../theme/css/index.css">
+<link rel="stylesheet" type="text/css" href="../theme/css/index.css">
+
 </head>
 
-<body id="index" class="home">
-    <header id="banner" class="body">
-        <h1><a href="../">Plasticity <strong></strong></a></h1>
-      </header><!-- /#banner -->
 
+
+<body id="index" class="home">
+  <header id="banner" class="body">
+    <h1><a href="../">Plasticity <strong></strong></a></h1>
+  </header><!-- /#banner -->
+  <main>
 <div id="main-grid-container">
     <nav id="menu">
         <h3 id="category-title">Categories</h3>
         <ul>
-                <a href="../category/quick.html"><li class="active" >Quick
-                    </li></a>
+                <a href="../category/quick.html">
+                    <li class="active" >Quick
+                        </li>
+                </a>
         </ul>
     </nav><!-- /#menu -->
     <section id="content">
-<h2>Articles in the Quick category</h2>
+
+        <h2>All articles</h2>
 
         <ol id="post-list">
             <li>
@@ -38,7 +45,32 @@
                         <time class="published" datetime="02 June 2019"
                             title="2019-06-02 18:30:00-06:00"> 02 June 2019 </time>
                     </footer><!-- /.post-info -->
-                    <div class="entry-content"> <p>This is a test of my automation pipeline.</p> </div><!-- /.entry-content -->
+                    <div class="entry-content"> <p>This is a test of my automation pipeline.</p>
+<p>Raw html appears as...</p>
+<table style="width:100%">
+<tr>
+<th>Firstname</th>
+<th>Lastname</th>
+<th>Age</th>
+</tr>
+<tr>
+<td>Jill</td>
+<td>Smith</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Eve</td>
+<td>Jackson</td>
+<td>94</td>
+</tr>
+</table>
+
+<p><button id=btnSubmit type="button" onClick="myFunc()">Click me</button>
+<script>
+function myFunc() {
+    console.log("Click");
+}
+</script></p> </div><!-- /.entry-content -->
                 </article>
             </li>
             <li>
@@ -58,13 +90,14 @@
         </ol><!-- /#posts-list -->
     </section><!-- /#content -->
 </div>
+  </main>
 
   <footer id="contentinfo" class="body">
     <address id="about" class="vcard body">
-      Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-      which takes great advantage of <a href="http://python.org">Python</a>.
+      Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
     </address><!-- /#about -->
   </footer><!-- /#contentinfo -->
 </body>
+
 
 </html>

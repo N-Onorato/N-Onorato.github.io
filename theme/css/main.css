@@ -1,14 +1,24 @@
 
 html {
-    background-color: white;
-    background-image: url(../prism_light_tiny.png);
+    background-color: rgb(49, 49, 49);
     background-repeat: repeat;
     background-size: 170px 170px;
     margin: 0;
 }
 
 body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     margin: 0;
+}
+
+main {
+    margin: 0;
+    padding: .5rem 0;
+    flex-grow: 1;
+    
+    background-image: url(../prism_light_tiny.png);
 }
 
 h1, h2, h3, h4 {
@@ -55,7 +65,6 @@ blockquote p {
     margin: .5rem auto;
     max-width: 1000px;
     min-width: 500px;
-    min-height: 100%;
 
 }
 
@@ -74,11 +83,10 @@ footer time {
 
 #contentinfo {
     width: 100%;
-    height: 1rem;
     margin: 0;
     padding: 2px 0;
 
-    background-color: rgb(49, 49, 49);;
+    background-color: rgb(49, 49, 49);
 }
 
 #contentinfo > address {
