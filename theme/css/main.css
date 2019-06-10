@@ -15,7 +15,7 @@ body {
 
 main {
     margin: 0;
-    padding: .5rem 0;
+    padding: 0;
     flex-grow: 1;
     
     background-image: url(../prism_light_tiny.png);
@@ -64,7 +64,6 @@ blockquote p {
 #main-grid-container {
     margin: .5rem auto;
     max-width: 1000px;
-    min-width: 500px;
 
 }
 
@@ -77,10 +76,6 @@ footer time {
     display: inline;
 }
 
-#post-list {
-    list-style-type: none;
-}
-
 #contentinfo {
     width: 100%;
     margin: 0;
@@ -90,9 +85,9 @@ footer time {
 }
 
 #contentinfo > address {
-    display: block;
-    width: max-content;
-    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 
     color: whitesmoke;
 }
