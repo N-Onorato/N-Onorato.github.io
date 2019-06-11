@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Plasticity</title><link href="n-onorato.github.io/" rel="alternate"></link><link href="n-onorato.github.io/feeds/all.atom.xml" rel="self"></link><id>n-onorato.github.io/</id><updated>2019-06-07T11:33:00-06:00</updated><entry><title>Your brain is fine using GPS</title><link href="n-onorato.github.io/GPS-Wont-Rot-Your-Brain.html" rel="alternate"></link><published>2019-06-07T11:33:00-06:00</published><updated>2019-06-07T11:33:00-06:00</updated><author><name>Nicholas Onorato</name></author><id>tag:None,2019-06-07:n-onorato.github.io/GPS-Wont-Rot-Your-Brain.html</id><summary type="html">&lt;p&gt;Recently,post The Washington Post published an article written by M.R. O'Connor, titled &lt;a href="https://www.washingtonpost.com/opinions/ditch-the-gps-its-ruining-your-brain/2019/06/05/29a3170e-87af-11e9-98c1-e945ae5db8fb_story.html"&gt;Ditch the GPS. It's Ruining your Brain.&lt;/a&gt; and as someone with a neuroscience background this caught my attention. Plenty of activities such as video games and social media were said to rot and ruin your brain …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Recently,post The Washington Post published an article written by M.R. O'Connor, titled &lt;a href="https://www.washingtonpost.com/opinions/ditch-the-gps-its-ruining-your-brain/2019/06/05/29a3170e-87af-11e9-98c1-e945ae5db8fb_story.html"&gt;Ditch the GPS. It's Ruining your Brain.&lt;/a&gt; and as someone with a neuroscience background this caught my attention. Plenty of activities such as video games and social media were said to rot and ruin your brain and that's never been the case. The brain might change, but outside of damaging it or developing a disease it wont be ruined. The main thrust of the article focuses on the idea that using GPS can decrease hippocampal gray matter and that is related to devoping dieases. O'Connor begins by extolling the usefulness of GPS before diving into how it affects perception.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When people are told which way to turn, it relieves them of the need to create their own routes and remember them. They pay less attention to their surroundings. And neuroscientists can now see that brain behavior changes when people rely on turn-by-turn directions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is completely true and not at all surprising. By offloading work to technology we would expect the brain to behave differently simply because it's doing something different than it did before. So far things are fine, but as we see later on O'Connor confuses gray matter volume with overall health and function.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Studies have long shown the hippocampus is highly susceptible to experience. (London’s taxi drivers famously have greater gray-matter volume in the hippocampus as a consequence of memorizing the city’s labyrinthine streets.) Meanwhile, atrophy in that part of the brain is linked to devastating conditions, including post-traumatic stress disorder and Alzheimer’s disease. Stress and depression have been shown to dampen neurogenesis — the growth of new neurons — in the hippocampal circuit.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is where I think O'Connor gets confused. The hippocampus and the brain in general adapts to the tasks being demanded of it. This is called brain plasticity and it's an important part of learning. Increased hippocampal gray matter in taxi drivers can indicated better navigational performance, but so what? Most people's hippocampi have adapted to their own daily tasks. Not everyone can be a taxi driver in london.&lt;/p&gt;
+&lt;p&gt;O'Connor also seems to suggest having a small hippocampus is bad by linking it to post-traumatic stress disorder and alzheimer's. This isn't correct, the brain in a disease state might experience pathological changes due to the disease. But atrophy is due to a having a disease is quite different than changes due to brain plasticity. When someone has a disease there is atrophy despite that function still being needed. &lt;/p&gt;
+&lt;p&gt;Unfortunately the study that this article is based on also seemed to suggest a larger hippocampus is better, the lead researcher Véronique Bohbot is quoted...&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“If we are paying attention to our environment, we are stimulating our hippocampus, and a bigger hippocampus seems to be protective against Alzheimer’s disease,”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;After looking at the study this is a misleading reflection of the research. The research shows that lower hippocampal volume is a risk factor for Alzheimer's but this relationship isn't understood. This isn't evidence that increasing hippocampal volume would protect you from alzheimer's. It's far more likely that whatever environmental, genetic, and behavioral conditions lead to alzheimer's also tend to allow or cause lower hippocampal volume.&lt;/p&gt;
+&lt;p&gt;It's unfortunate to see these kinds of articles picked up. There's likely an interesting story about what roles the hippocampus plays in navigation and how these differ between individuals. Instead we get throw away articles about GPS rotting your brain from a respected publication. Labeling it with an opinion tag doesn't give The Washington Post a pass either. They are providing a platform and should ensure to the best of their ability that any objective claims made in the article are true.&lt;/p&gt;</content><category term="Science"></category><category term="Response"></category></entry><entry><title>Second Article!</title><link href="n-onorato.github.io/second-article.html" rel="alternate"></link><published>2019-06-02T18:30:00-06:00</published><updated>2019-06-02T18:30:00-06:00</updated><author><name>Nicholas Onorato</name></author><id>tag:None,2019-06-02:n-onorato.github.io/second-article.html</id><summary type="html">&lt;p&gt;This is a test of my automation pipeline.&lt;/p&gt;
+&lt;p&gt;Raw html appears as...&lt;/p&gt;
+&lt;table style="width:100%"&gt;
+&lt;tr&gt;
+&lt;th&gt;Firstname&lt;/th&gt;
+&lt;th&gt;Lastname&lt;/th&gt;
+&lt;th&gt;Age&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jill&lt;/td&gt;
+&lt;td&gt;Smith&lt;/td&gt;
+&lt;td&gt;50&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Eve&lt;/td&gt;
+&lt;td&gt;Jackson&lt;/td&gt;
+&lt;td&gt;94&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;button id=btnSubmit type="button" onClick="myFunc()"&gt;Click me&lt;/button&gt;
+&lt;script&gt;
+function myFunc() {
+    console.log("Click");
+}
+&lt;/script&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a test of my automation pipeline.&lt;/p&gt;
+&lt;p&gt;Raw html appears as...&lt;/p&gt;
+&lt;table style="width:100%"&gt;
+&lt;tr&gt;
+&lt;th&gt;Firstname&lt;/th&gt;
+&lt;th&gt;Lastname&lt;/th&gt;
+&lt;th&gt;Age&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jill&lt;/td&gt;
+&lt;td&gt;Smith&lt;/td&gt;
+&lt;td&gt;50&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Eve&lt;/td&gt;
+&lt;td&gt;Jackson&lt;/td&gt;
+&lt;td&gt;94&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;button id=btnSubmit type="button" onClick="myFunc()"&gt;Click me&lt;/button&gt;
+&lt;script&gt;
+function myFunc() {
+    console.log("Click");
+}
+&lt;/script&gt;&lt;/p&gt;</content></entry><entry><title>My First Blog Post</title><link href="n-onorato.github.io/my-first-blog-post.html" rel="alternate"></link><published>2019-06-02T17:30:00-06:00</published><updated>2019-06-02T17:30:00-06:00</updated><author><name>Nicholas Onorato</name></author><id>tag:None,2019-06-02:n-onorato.github.io/my-first-blog-post.html</id><summary type="html">&lt;p&gt;This is just a quick little &lt;strong&gt;post&lt;/strong&gt; where I'm testing out Pelican.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is just a quick little &lt;strong&gt;post&lt;/strong&gt; where I'm testing out Pelican.&lt;/p&gt;</content></entry></feed>
