@@ -28,12 +28,6 @@
     border-radius: .5rem;
 }
 
-#post-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
 aside {
     grid-area: gSidebar;
 }
@@ -84,3 +78,19 @@ nav ul a {
     border-radius: 3px;
     text-decoration: none;
 }
+
+#post-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#post-list li {
+    margin: 4rem 0;
+}
+
+#post-list li:first-of-type, #post-list li:last-of-type {
+    margin: 0;
+}
+
+

@@ -1,31 +1,11 @@
 
-html {
-    background-color: rgb(49, 49, 49);
-    background-repeat: repeat;
-    background-size: 170px 170px;
-    margin: 0;
-}
 
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    margin: 0;
-}
 
-main {
-    margin: 0;
-    padding: 0;
-    flex-grow: 1;
-    
-    background-image: url(../prism_light_tiny.png);
-}
-
-h1, h2, h3, h4 {
+h2, h3, h4 {
    margin: 0 0 .25rem 0; 
 }
 
-h1 > a, h2 > a, h3 > a {
+h2 > a, h3 > a {
     margin:  0 0 .25rem 0;
     color: darkslategrey;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,30 +15,32 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-blockquote {
-    margin: 5px 1rem 5px 1rem;
-    padding: .5rem 1rem;
-    background-color: #e6e6e6;
-    border-left: 5px solid lightslategray;
-}
-
-blockquote p {
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif
-}
 
 #banner {
     width: 100%;
-    height: 70px;
 
     background-color: rgb(49, 49, 49);
 }
 
-#banner h1 a {
-    display: block;
-    width: 10rem;
+#title-container {
+    padding: 1rem 0 1rem 2rem;
+    width: 1000px;
     margin: 0 auto;
+    color: white;
+    font-family: 'Palatino', 'Lucida Bright', serif;
+}
+
+#title-container p, #title-container h1 {
+    margin: 0;
+    font-family: 'Palatino', 'Lucida Bright', serif;
+    font-weight: bold;
+}
+
+#title-container h1 a {
+    margin: 0;
     color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Palatino', 'Lucida Bright', serif;
 }
 
 #main-grid-container {

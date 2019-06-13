@@ -6,7 +6,7 @@
   <title>Plasticity - Arkane Studios tag</title>
   <base target="_self" rel="noreferrer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="../theme/css/main.css" />
+  <link rel="stylesheet" type="text/css" href="../theme/css/main.css" />
   <meta charset="utf-8" />
   <link
     href="n-onorato.github.io/feeds/all.atom.xml"
@@ -14,14 +14,51 @@
 
 <link rel="stylesheet" type="text/css" href="../theme/css/index.css">
 
+
+  <style>
+    html {
+      background-color: rgb(49, 49, 49);
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      margin: 0;
+    }
+
+    main {
+      margin: 0;
+      padding: 0;
+      flex-grow: 1;
+
+      background-image: url(../theme/prism_light_tiny.png);
+    }
+
+    blockquote {
+      margin: 5px 1rem 5px 1rem;
+      padding: .5rem 1rem;
+      background-color: #e6e6e6;
+      border-left: 5px solid lightslategray;
+    }
+
+    blockquote p {
+      margin: 0;
+      font-family: 'Times New Roman', Times, serif
+    }
+  </style>
+
 </head>
 
 
 
 <body id="index" class="home">
-  <header id="banner" class="body">
-    <h1><a href="../">Plasticity <strong></strong></a></h1>
-  </header><!-- /#banner -->
+  <div id="title-container">
+    <header id="banner" class="body">
+      <h1><a href="../">Plasticity <strong></strong></a></h1>
+      <p id="subtitle">Where minds change.</p>
+    </header><!-- /#banner -->  </div>
   <main>
 <div id="main-grid-container">
     <aside id="nav-sidebar">
@@ -71,7 +108,8 @@
 
   <footer id="contentinfo" class="body">
     <address id="about" class="vcard body">
-      Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+      Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a
+        href="http://python.org">Python</a>.
     </address><!-- /#about -->
   </footer><!-- /#contentinfo -->
 </body>
