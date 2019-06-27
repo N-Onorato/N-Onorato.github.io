@@ -24,3 +24,41 @@ p {
     border-radius: 1px;
     background-color: #f5f5f5;
 }
+
+@media print {
+    main {
+        background: none !important;
+    }
+    
+    #title-container {
+        margin-left: 0;
+    }
+    
+    section {
+        margin: 0;
+        background: none;
+        box-shadow: none !important;
+    }
+    
+    .entry-title {
+        font-weight: lighter;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    .post-info {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .entry-content {
+        column-count: 2;
+        column-gap: 1rem;
+    }
+    p {
+        font-family: serif;
+    }
+}
