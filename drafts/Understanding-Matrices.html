@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Plasticity - Understanding Matrices</title>
+  <base target="_self" rel="noreferrer">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../theme/css/main.css" />
+  <meta charset="utf-8" />
+  <link
+    href="n-onorato.github.io/feeds/all.atom.xml"
+    type="application/atom+xml" rel="alternate" title="Plasticity Full Atom Feed" />
+  <link
+    href="n-onorato.github.io/feeds/thoughts.atom.xml"
+    type="application/atom+xml" rel="alternate" title="Plasticity Categories Atom Feed" />
+
+  <link rel="stylesheet" type="text/css" href="../theme/css/article.css" />
+
+
+    <meta name="tags" content="Math" />
+
+
+  <style>
+    html {
+      background-color: rgb(49, 49, 49);
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      margin: 0;
+    }
+
+    main {
+      margin: 0;
+      padding: 0;
+      flex-grow: 1;
+
+      background-image: url(../theme/prism_light_tiny.png);
+    }
+
+    blockquote {
+      margin: 5px 1rem 5px 1rem;
+      padding: .5rem 1rem;
+      background-color: #e6e6e6;
+      border-left: 5px solid lightslategray;
+    }
+
+    blockquote p {
+      margin: 0;
+      font-family: 'Times New Roman', Times, serif
+    }
+  </style>
+
+</head>
+
+
+
+<body id="index" class="home">
+  <div id="title-container">
+    <header id="banner" class="body">
+      <h1><a href="../">Plasticity <strong></strong></a></h1>
+      <p id="subtitle">Where minds change.</p>
+    </header><!-- /#banner -->  </div>
+  <main>
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">Understanding Matrices</h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2019-07-19T00:00:00-06:00">
+      Fri 19 July 2019
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="../author/nicholas-onorato.html">Nicholas Onorato</a>
+    </address>
+    <div class="category">
+        Category: <a href="../category/thoughts.html">Thoughts</a>
+    </div>
+    <div class="tags">
+        Tags:
+            <a href="../tag/math.html">Math</a>
+    </div>
+  </footer><!-- /.post-info -->
+    <img class="header-image" src="../images/arkane.jpg" data-title="understanding-matrices">
+  <div class="entry-content">
+    <p>Have you ever had a friend tell you something you really didn't need or want to know? I have a feeling this post might end up like that. I want to understand matrices because they come up a lot in computer graphics which I'm interested in.</p>
+<p>I like to imagine math as a tool to achieve things. Unfortunately a lot of us were taught how to use the tool but not what we could really do with it. So to begin this post I'd like to explore what matrices are used for and how they might help us create cool stuff.</p>
+<h2>Wikipedia</h2>
+<p>Like all research, it begins with wikipedia which has a whole section on applications. Surely it can't be this easy, it lists...
+* Graph theory
+* Analysis and geometry
+* Probability theory and statistics
+* Symmetries adn transformations in physics
+* Linear combinations of quantum states
+* normal modes
+* Geometrical optics
+* Electronics</p>
+<p>This is a formidable list, but unfortunately most of this is impenetrable to me. For example Electronics begins with...</p>
+<blockquote>
+<p>Traditional mesh analysis and nodal analysis in electronics lead to a system of linear equations that can be described with a matrix.</p>
+</blockquote>
+<p>Which doesn't tell me a lot, in fact the only thing I'm really pulling from wikipedia is from the very beginning.</p>
+<blockquote>
+<p>A major application of matrices is to represent linear transformations, that is, generalizations of linear functions such as f(x) = 4x.</p>
+</blockquote>
+<p>Ok now we're getting somewhere. Apparently a matrix can represent a linear function. </p>
+<h2><a href="https://www.mathsisfun.com/algebra/matrix-introduction.html">Math is fun</a></h2>
+<p>A perfect example of how teaching matrices can go wrong. It talks about what a matrix is and how to do oporations on them, but not why you'd want to. Continuing on...</p>
+<h2><a href="https://betterexplained.com/articles/linear-algebra-guide/">Better Explained</a></h2>
+<p>This site has helped me in high school and is an ok math resource. Searching matrices leads us to "An Intuitive Guide to Linear Algebra", which also talks about matrices. It doesn't supply many direct applications of vectors but does begin to explain their general application. It appears they are mainly useful as an organizational construct. It's simply more convenient to put numbers in rows and columns and multiply them with a complicated procedure than it would be to do it any other way. One take away is that there are linear functions. Things like f(x) = 3x where increasing x makes the output also increase. So say you have a bunch of these little functions and you need to to run some numbers through them all to get a useful result. Matrices make are a how mathematicians organize that and they did an absolutely awful job at making it intuitive. Anyways, let's explore this concept more deeply with an example, as I imagine it doesn't make much sense. It took me about 3 days to begin understanding it.</p>
+<h3>The Bakery</h3>
+<p>We're going to start off pretty simple and make things more complicated as we go. Lets say you've just opened a bakery and things have been going well. People love your bread so much you make 3 batches a day. One in the early morning, late morning, and afternoon. Sure you have to get up super early, but the smell of freshly baked bread by 8am is a wonderful daily treat. </p>
+<p>After a month or so you're friend who's recently graduated school in stastics starts by and watches you work. They are a curious type and notice you're sort of loose with moving around ingredients. You tend to put in more flower and water than you're supposed to, but also tend to leave some dough behind when you let it ferment. lastly when you're shaping it you'll just toss out chunks until it's the size you want. It all works out in the end but your friend wants to describe all this mathematically and so they watch you, take notes, and go home to work it all out.</p>
+<p>About a week, they visit you again and tell you all about what they found over some tea. It turns out you're actually fairly consistent at each part of your bread making. You often throw in the same amount of flour and water, leave the same amount of dough in the bowl and throw out the same amount of dough when you shape your loaves. They describe it like this.</p>
+<blockquote>
+<p>If your recipe calls for 1000g of water and flour you'll put in 1.2 times that amount. Then you'll only take 85% or 0.85 of the dough for shaping. Lastly when shaping you'll only use 90% or 0.9 of the dough.</p>
+</blockquote>
+<p>It all sounded relatively wasteful, you thought you should adjust your habits in the future, but not at this very moment. However it did spark a thought, if things were really so consistent you could estimate the weight of each loaf and price it accordingly instead of weighting each one like you currently do. Of course some weight is lost between the shaping and cooking. You asked your friend about it and they determined the loaves lose 80% or 0.8 of their weight while they bake.</p>
+<p>From all these numbers you determined that with a recipe calling for 1000g of water and flour the equation for the final bread weight would look something like this.</p>
+<p>1000g * 1.2 * 0.85 * 0.9 * .8 = 734g</p>
+  </div><!-- /.entry-content -->
+</section>
+  </main>
+
+  <footer id="contentinfo" class="body">
+    <address id="about" class="vcard body">
+      Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a
+        href="http://python.org">Python</a>.
+    </address><!-- /#about -->
+  </footer><!-- /#contentinfo -->
+</body>
+
+
+</html>
